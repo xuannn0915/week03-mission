@@ -72,7 +72,16 @@ ul,ol{
   list-style: none;
 }
 
+a{
+	text-decoration: none;
+}
+
+img{
+	vertical-align: middle;
+}
+
 body{
   line-height: 1.5;
   font-family:  'Roboto','Noto Sans TC', sans-serif;
+	box-sizing: border-box;
 }
