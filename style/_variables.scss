@@ -298,14 +298,16 @@ $cyans: (
 // fusv-enable
 
 // scss-docs-start theme-color-variables
-$primary:       $blue !default;
-$secondary:     $gray-600 !default;
+$primary:       #AA0601; //$blue !default;
+$secondary:     #FBF2F2; //$gray-600 !default;
+$teritory:      #650300;
 $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
-$light:         $gray-100 !default;
-$dark:          $gray-900 !default;
+$light:         #DEE2E6; //$gray-100 !default;
+$light-dark:    #00000029;
+$dark:          #707070; //$gray-900 !default;
 // scss-docs-end theme-color-variables
 
 // scss-docs-start theme-colors-map
@@ -502,10 +504,10 @@ $grid-breakpoints: (
 // scss-docs-start container-max-widths
 $container-max-widths: (
   sm: 540px,
-  md: 720px,
+  md: 698px, //720px,
   lg: 960px,
   xl: 1140px,
-  xxl: 1320px
+  xxl: 1296px, //1320px
 ) !default;
 // scss-docs-end container-max-widths
 
@@ -640,12 +642,13 @@ $h6-font-size:                $font-size-base !default;
 
 // scss-docs-start font-sizes
 $font-sizes: (
-  1: $h1-font-size,
-  2: $h2-font-size,
-  3: $h3-font-size,
-  4: $h4-font-size,
-  5: $h5-font-size,
-  6: $h6-font-size
+  1: 64px, //$h1-font-size,
+  2: 48px, //$h2-font-size,
+  3: 36px, //$h3-font-size,
+  4: 24px, //$h4-font-size,
+  5: 20px, //$h5-font-size,
+  6: 16px, //$h6-font-size
+  7: 14px,
 ) !default;
 // scss-docs-end font-sizes
 
