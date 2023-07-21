@@ -1,0 +1,73 @@
+$primary:       #AA0601;
+$secondary:     #FBF2F2; 
+$teritory:      #650300;
+$light:         #DEE2E6; 
+$light-dark:    #00000029;
+$dark:          #707070;
+$white:         #fff;
+$black:         #000;
+
+
+// navbar
+.navbar{
+  padding: 0;
+  img{
+    width: 80px;
+  }
+  .item{
+    &:last-child{
+      margin-right: 0;
+    }
+    a{
+      color: #fff;
+      display: inline-block;
+      padding: 25px 32px;
+    }
+  }
+  .item:hover{
+    background-color: #fff;
+    a{
+      color: $primary;
+    }
+  }
+
+
+  @media (max-width:768px) {
+    img{
+      padding: 16px 0;
+    }
+    .menu{
+      width: 100%;
+    }
+    .item{
+      width: 50%;
+      text-align: center;
+      border: 1px solid $white;
+
+      a{
+        padding: 12px 0;
+      }
+    }
+  }
+}
+
+
+
+
+// banner
+.banner{
+  background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-header.png?raw=true");
+  height: 80vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  h1{
+    margin-bottom: 4px;
+  }
+
+
+  @media (max-width:768px) {
+    background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-header-sm.png?raw=true");
+    height: 50vh;
+  }
+}
