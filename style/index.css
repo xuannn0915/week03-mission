@@ -54,4 +54,25 @@
 
 .service {
   padding: 80px 0;
+}
+.service h2 {
+  margin-bottom: 32px;
+}
+.service .item span {
+  font-size: 83px;
+  margin-bottom: 24px;
+}
+.service .item .title {
+  margin-bottom: 8px;
+}
+@media (max-width: 768px) {
+  .service {
+    padding: 40px 0;
+  }
+  .service .item {
+    margin-bottom: 32px;
+  }
+  .service .item:last-child {
+    margin-bottom: 0;
+  }
 }/*# sourceMappingURL=index.css.map */

@@ -74,4 +74,26 @@ $black:         #000;
 // service
 .service{
   padding: 80px 0;
+  h2{
+    margin-bottom: 32px;
+  }
+  .item{
+    span{
+      font-size: 83px;
+      margin-bottom: 24px;
+    }
+    .title{
+      margin-bottom: 8px;
+    }
+  }
+
+  @media (max-width:768px) {
+    padding: 40px 0;
+    .item{
+      margin-bottom: 32px;
+      &:last-child{
+        margin-bottom: 0;
+      }
+    }
+  }
 }
