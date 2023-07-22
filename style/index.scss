@@ -52,8 +52,6 @@ $black:         #000;
 }
 
 
-
-
 // banner
 .banner{
   background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-header.png?raw=true");
@@ -70,4 +68,10 @@ $black:         #000;
     background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-header-sm.png?raw=true");
     height: 50vh;
   }
+}
+
+
+// service
+.service{
+  padding: 80px 0;
 }
