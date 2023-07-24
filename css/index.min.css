@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 .navbar {
   padding: 0;
 }
@@ -158,3 +159,6 @@
   color: #AA0601;
   padding: 8px 0;
 }/*# sourceMappingURL=index.min.css.map */
+=======
+.navbar{padding:0}.navbar img{width:80px}.navbar .item:last-child{margin-right:0}.navbar .item a{color:#fff;display:inline-block;padding:25px 32px}.navbar .item:hover{background-color:#fff}.navbar .item:hover a{color:#aa0601}@media(max-width: 768px){.navbar img{padding:16px 0}.navbar .menu{width:100%}.navbar .item{width:50%;text-align:center;border:1px solid #fff}.navbar .item a{padding:12px 0}}.banner{background-image:url("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-header.png?raw=true");height:80vh;background-size:cover;background-repeat:no-repeat;background-position:center center}.banner h1{margin-bottom:4px}@media(max-width: 768px){.banner{background-image:url("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-header-sm.png?raw=true");height:50vh}}.service{padding:80px 0}.service h2{margin-bottom:32px}.service .item span{font-size:83px;margin-bottom:24px}.service .item .title{margin-bottom:8px}@media(max-width: 768px){.service{padding:40px 0}.service .item{margin-bottom:32px}.service .item:last-child{margin-bottom:0}}/*# sourceMappingURL=index.min.css.map */
+>>>>>>> Stashed changes
