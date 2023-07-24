@@ -243,6 +243,24 @@ $black: #000;
   }
 
   @media (max-width:990px) {
-    
+    .card{
+      margin-bottom: 24px;
+    }
+  }
+
+  @media (max-width:768px) {
+    padding: 40px 0;
+
+    h2{
+      margin-bottom: 24px;
+    }
+
+    .card{
+      margin-bottom: 16px;
+    }
+
+    .card-box{
+      height: 60%;
+    }
   }
 }
