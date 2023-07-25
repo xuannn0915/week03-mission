@@ -1,0 +1,105 @@
+@import "./color";
+
+// sub-navbar
+.sub-navbar{
+  margin-top: 80px;
+  li{
+    width: 33.33%;
+    border-left: 1px solid $light-dark;
+    border-right: 1px solid $light-dark;    
+  }
+
+  li:hover{
+    a::before{
+      display: block;
+    }
+  }
+  
+  a{
+    position: relative;
+    padding: 24px 0;
+    &::before{
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 8%;
+      background: $primary;
+      display: none;
+    }
+  }
+
+  @media (max-width:992px) {
+    margin-top: 73px;
+  }
+
+  @media (max-width:768px) {
+    margin-top: 0;
+  }
+
+}
+
+
+// banner
+.banner{
+  background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-header-1.png?raw=tru"), url("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-header-2.png?raw=true");
+  background-repeat: no-repeat;
+  background-size: 50%, 50%;
+  background-position: top left, top right;
+  height: 296px;
+
+  @media (max-width:992px) {
+    background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-header-sm-1.png?raw=true"), url("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-header-sm-2.png?raw=true");
+  }
+
+  @media (max-width:768px) {
+    height: 136px;
+  }
+}
+
+// product list
+.product{
+  padding: 80px 0;
+
+  .subtitle{
+    margin-bottom: 32px;
+  }
+
+  .card{
+    margin-bottom: 80px;
+  }
+
+  .card:hover{
+    .card-pic{
+      transition: 0.5s;
+      transform: scale(1.1, 1.1);
+    }
+  }
+  .card-pic{
+    transition: 0.5s;
+    object-fit: cover;
+    object-position: center center;
+  }
+
+  .card-body{
+    span{
+      width: 24px;
+      height: 24px;
+      margin-right: 8px;
+    }
+  }
+
+
+  @media (max-width:992px) {
+    .card{
+      margin-bottom: 40px;
+    }
+  }
+
+  @media (max-width:768px) {
+    .card{
+      margin-bottom: 24px;
+    }
+  }
+}

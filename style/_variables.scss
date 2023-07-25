@@ -310,6 +310,8 @@ $light-dark:    #00000029;
 $dark:          #707070; //$gray-900 !default;
 $white:         #fff;
 $black:         #000;
+$brown:         #5F3E2D;
+$earthy:        #B75929;
 // scss-docs-end theme-color-variables
 
 // scss-docs-start theme-colors-map
@@ -325,6 +327,8 @@ $theme-colors: (
   "dark":       $dark,
   "white":      $white,
   "black":      $black,
+  "brown":      $brown,
+  "earthy":     $earthy,
 ) !default;
 // scss-docs-end theme-colors-map
 
