@@ -46,14 +46,14 @@
 
 // banner
 .banner{
-  background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-header-1.png?raw=true"), url("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-header-2.png?raw=true");
+  background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-header-3.png?raw=true"), url("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-header-4.png?raw=true");
   background-repeat: no-repeat;
   background-size: 50%, 50%;
   background-position: top left, top right;
   height: 296px;
 
   @media (max-width:992px) {
-    background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-header-sm-1.png?raw=true"), url("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-header-sm-2.png?raw=true");
+    background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-header-sm-3.png?raw=true"), url("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/product-header-sm-4.png?raw=true");
   }
 
   @media (max-width:768px) {

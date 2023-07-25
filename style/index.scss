@@ -12,6 +12,10 @@
     margin-bottom: 4px;
   }
 
+  @media (max-width:992px) {
+    margin-top: 74px;
+  }
+
   @media (max-width: 768px) {
     margin-top: 0;
     background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/home-header-sm.png?raw=true");
