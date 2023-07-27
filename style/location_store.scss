@@ -23,26 +23,7 @@
     }
   }
 
-  .card{
-    margin-bottom: 48px;
-  }
-
-  .card:hover{
-    .card-pic{
-      transition: 0.5s;
-      transform: scale(1.1, 1.1);
-    }
-    button{
-      background-color: $primary;
-    }
-  }
-
-  .card-pic{
-    transition: 0.5s;
-  }
-
   .card-body{
-    padding: 0;
     
   h4{
       padding: 8px 24px;
@@ -75,8 +56,13 @@
   @media (max-width:992px) {
     margin-top: 74px;
     padding: 80px 0;
-    .card{
-      margin-bottom: 24px;
+
+    .card-pic{
+      width: 50%;
+      margin-right: 24px;
+    }
+    .card-body{
+      width: 50%;
     }
   }
 
@@ -96,5 +82,12 @@
       }
     }
 
+    .card-pic{
+      width: 100%;
+      margin-right: 0;
+    }
+    .card-body{
+      width: 100%;
+    }
   }
 }
