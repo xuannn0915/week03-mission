@@ -1,10 +1,5 @@
 // navbar
 .navbar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  padding: 0;
   img {
     width: 80px;
   }
@@ -25,20 +20,34 @@
     }
   }
 
+
+
   @media (max-width: 768px) {
-    position: static;
+    position: fixed;
     img {
       padding: 16px 0;
     }
     .menu {
+      position: absolute;
+      top: 100%;
+      max-height: 0px;
       width: 100%;
+      transition: all 0.5s;
+      overflow: hidden;
     }
+    .open{
+      max-height: 112px;
+      transition: all 0.5s;
+    }
+
     .item {
       width: 50%;
       text-align: center;
+
       border: 1px solid $white;
 
       a {
+        width: 100%;
         padding: 12px 0;
       }
     }
